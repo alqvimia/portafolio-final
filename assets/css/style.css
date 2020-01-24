@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #000000 !important;
+    position: fixed top;
+    width: 100vw;
+}
+
+.navbar h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+
+}
+
+.hero__section {
+    
+    background-image: url(../img/fotoyo.jpg);
+    background-repeat:no-repeat;
+    background-position: top center;
+    background-size:cover ;
+    width: 100vw;
+    height: 100vh;
+}
+
+h4 {
+    color: #ffffff;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+}
+
+header h1 {
+    text-align: center;
+    color: #ffffff;
+    margin: 80px;
+}
+
+header h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.acerca {
+    text-align: center;
+    display: none;
+    color: #ffffff;
+    background-color: black;
+    width: 100vw;
+}
+
+.acerca h3 {
+    margin: 40px;
+    font-family: 'Cinzel', serif;
+
+}
+
+.acerca p {
+    margin: 10px 30px 40px 50px;
+}
+
+.tarjetero {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 30px;
+    width: 100vw;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    color: #ffffff;
+}
+
+.card h5 {
+    font-family: 'cinzel', 'serif';
+    text-align: center;
+}
+
+.card p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.experiencia {
+    background-color: black;
+    color: #ffffff;
+    width: 100vw;
+    
+}
+
+.jumbotron {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'cinzel','serif';
+    width: 100vw;
+}
+
+.jumbotron h4 {
+    font-size: 30px;
+}
+
+footer {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+    width: 100vw;
+}
+
+footer h4 {
+    font-family: 'cinzel','serif';
+    font-size: 40px;
+}
+
+i {
+    color: white;
+    margin: 20px;
+}
+
+footer h6 {
+    font-family: 'cinzel','serif';
+
+}
+
+.typeform-widget {
+    width: 100vw;
+}
+
+.fondo-carrusel {
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.carousel-caption {
+    background-color:black;
+    bottom: 0;
+    padding: 0;
+    padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color:#ffffff;
+}
+
+.carousel-caption h5 {
+    font-family: 'cinzel','serif';
+    font-size: 25px;
+}
+
+@media (min-width: 200px) {
+
+    
+}
+
+@media (min-width: 768px) { 
+
+    .acerca {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .acerca {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .acerca {
+        display: inline-block;
+    }
+
+}
